@@ -1,0 +1,1 @@
+CREATE TABLE `tenant_1`.`property_manager` ( `id` INT(5) NOT NULL AUTO_INCREMENT , `prop_key` VARCHAR(150) NOT NULL , `prop_value` VARCHAR(1000) NOT NULL , `module` VARCHAR(50) NULL , `screen` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
